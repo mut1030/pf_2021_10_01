@@ -1,0 +1,152 @@
+body {
+  background-color: #FFC149;
+}
+
+.menu_logo {
+  margin-left: 51px;
+  margin-top: 40px;
+}
+
+.menu_btn_close {
+  margin-right: 51px;
+  margin-top: 40px;
+}
+
+.illu_1 {
+  margin-left: 51px;
+  bottom: 10%;
+}
+
+.illu_2 {
+  left: auto;
+  right: 51px;
+  bottom: 10%;
+}
+
+.abs-center-middl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.menu_about_me {
+  position: absolute;
+  top: 32.5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.menu_work {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.menu_branding {
+  position: absolute;
+  top: 57.5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.menu_experience {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.line-1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.line-2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.line-3 {
+  position: absolute;
+  top: 57.5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.line-4 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+.menu_about_me>a>svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.menu_work>a>svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.menu_branding>a>svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.menu_experience>a>svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.menu_about_me>a>svg path {
+  stroke-dasharray: 949.1766967773438;
+  stroke-dashoffset: 949.1766967773438;
+}
+
+.menu_about_me:hover>a>svg path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s;
+}
+
+.menu_work>a>svg path {
+  stroke-dasharray: 949.1766967773438;
+  stroke-dashoffset: 949.1766967773438;
+}
+
+.menu_work:hover>a>svg path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s;
+}
+
+.menu_branding>a>svg path {
+  stroke-dasharray: 949.1766967773438;
+  stroke-dashoffset: 949.1766967773438;
+}
+
+.menu_branding:hover>a>svg path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s;
+}
+
+.menu_experience>a>svg path {
+  stroke-dasharray: 949.1766967773438;
+  stroke-dashoffset: 949.1766967773438;
+}
+
+.menu_experience:hover>a>svg path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s;
+}

@@ -1,0 +1,294 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.con {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.bar {
+  width: 1472px;
+}
+
+.fixed_title {
+  top: 957px;
+  left: 1807px;
+}
+
+.pf_picture {
+  top: 237px;
+  left: 415px;
+}
+
+.pf_circle {
+  top: 222px;
+  left: 399px;
+}
+
+.content_left>.pf_circle>img {
+  animation: rotate-1 20s linear infinite;
+}
+
+@keyframes rotate-1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pf_content {
+  top: 643px;
+  left: 428px;
+}
+
+.who_are_you {
+  top: 279px;
+  left: 922px;
+}
+
+.designer {
+  top: 657px;
+  left: 1554px;
+}
+
+.memo_1 {
+  top: 187px;
+  left: 1035px;
+}
+
+.memo_2 {
+  top: 583px;
+  left: 1094px;
+}
+
+.section-2 {
+  height: 1226px;
+}
+
+.section-3 {
+  height: 1370px;
+  background-color: #2F7CEF;
+}
+
+.section-4 {
+  height: 242px;
+}
+
+.section-5 {
+  height: 2550px;
+  background-color: #2D2D2D
+}
+
+.section-6 {
+  height: 321px;
+  background-color: #1C1C1C
+}
+
+.section-3>.about_me_note {
+  padding-top: 205px;
+  width: 1200px;
+}
+
+.wave_1 {
+  top: 262px;
+  left: 690px;
+  width: 130px;
+}
+
+.wave_2 {
+  top: 260px;
+  left: 699px;
+  width: 117px;
+}
+
+.section-3>.character {
+  top: 520px;
+  left: 1152px;
+}
+
+.section-3>.activy {
+  top: 1100px;
+  left: 860px;
+}
+
+.section-4>.section_4_content {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.section-4>.section_4_character {
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.blink-1 {
+  animation: blink-1-1 1.5s linear infinite;
+}
+
+.blink-2 {
+  animation: blink-1-2 1.5s linear infinite;
+}
+
+.section-5>.creative {
+  top: 371px;
+  left: 261px;
+}
+
+.section-5>.communication {
+  top: 597px;
+  left: 261px;
+}
+
+.section-5>.experience {
+  top: 823px;
+  left: 261px;
+}
+
+.section-5>.status {
+  top: 425px;
+  left: 1023px;
+}
+
+.section-5>.status_circle {
+  top: 485px;
+  left: 1098px;
+}
+
+.section-5>.status_circle>img {
+  animation: rotate-2 50s linear infinite;
+}
+
+@keyframes rotate-2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.section-5>.section-5_classic {
+  top: 1611px;
+  left: 1068px;
+}
+
+.section-5>.section-5_emotion {
+  top: 1796px;
+  left: 1068px;
+}
+
+.section-5>.section-5_people {
+  top: 1981px;
+  left: 1068px;
+}
+
+.section-5>.big_picture {
+  width: 500px;
+  top: 1547px;
+  left: 315px;
+}
+
+.section-5>.picture_effect {
+  width: 2000px;
+  ;
+  top: 1450px;
+  left: 200px;
+}
+
+.section-5>.parachute {
+  top: 1102px;
+  left: 1431px;
+}
+
+.section-6>.btn_work {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.section-6>.potato_character1 {
+  top: 196px;
+  left: 47px;
+}
+
+.section-6>.potato_character2 {
+  top: 185px;
+  left: 1775px;
+}
+
+.line-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.btn_work>a>svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.btn_work>a>svg path {
+  stroke-dasharray: 949.1766967773438;
+  stroke-dashoffset: 949.1766967773438;
+}
+
+.btn_work:hover>a>svg path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s;
+}
+
+/* 키프레임 */
+@keyframes blink-1-1 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes blink-1-2 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

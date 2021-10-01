@@ -1,0 +1,171 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.con {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.bar {
+  width: 1472px;
+}
+
+.section {
+  width: 1820px;
+  height: 934px;
+  margin: 0 auto;
+}
+
+.section-1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.abs-center-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.main_title {
+  left: 35%;
+  top: -60%;
+}
+
+.section-1 .out-circle {
+  pointer-events: none;
+}
+
+.section-1 .out-circle>div>img {
+  display: block;
+  animation: rotate-1 40s linear infinite;
+}
+
+.section-1 .out-circle-2>div {
+  transform: rotate(180deg);
+}
+
+.section-1 .out-circle-2>div>img {
+  animation: rotate-1 45s linear infinite;
+  animation-direction: reverse;
+}
+
+.section-1 .menu-box {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  position: absolute;
+  padding: 160px;
+}
+
+.section-1 .menu-box>div {
+  animation: rotate-1 40s linear infinite;
+}
+
+.section-1 .menu-box:hover>div {
+  animation-play-state: paused;
+}
+
+@keyframes rotate-1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.menu-box2>div {
+  animation: rotate-2 40s linear infinite;
+}
+
+@keyframes rotate-2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.section-1 .menu-box>div .btn {
+  animation: rotate-1 40s linear infinite;
+  animation-direction: reverse;
+}
+
+.section-1 .menu-box:hover>div .btn {
+  animation-play-state: paused;
+}
+
+.section-1 .menu-box>div .btn:hover {}
+
+img.egg-1 {
+  animation: rotate_image-1 31s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image-1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+img.egg-2 {
+  animation: rotate_image-2 30s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image-2 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+img.egg-3 {
+  animation: rotate_image-3 36s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image-3 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Branding {
+  width: 109px;
+}
+
+.Experience {
+  width: 142px;
+}
+
+.Work {
+  width: 60px;
+}
+
+.About_me {
+  width: 111.14px;
+}
+
+.btn-1:hover>a>.Branding .st0 {
+  fill: #ffffff;
+}
+
+.btn-2:hover>a>.Experience .st0 {
+  fill: #ffffff;
+}
+
+.btn-3:hover>a>.Work .st0 {
+  fill: #ffffff;
+}
+
+.btn-4:hover>a>.About_me .st0 {
+  fill: #ffffff;
+}
